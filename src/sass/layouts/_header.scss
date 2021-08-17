@@ -3,23 +3,25 @@
  */
 .site-header {
 	border-bottom: 1px solid $color-header-border;
+	background-color:black;
 }
 
 .navbar__logo,
 .navbar__title {
-	text-decoration: none;
+	text-decoration:none
+	
 }
 
 .navbar__logo {
 	img {
-		display: block;
+		display:block;
 		max-height: 2.22222rem;
 	}
 }
 
 .navbar__menu-btn,
 .navbar__close-btn {
-	font-size: 1.11111em;
+	font-size: 1.21111em;
 }
 
 .nav-overlay {
@@ -63,13 +65,15 @@
 	}
 
 	.navbar__menu {
-		border-top: 1px solid $color-nav-mobile-border;
+		border-top: 1px solid ;
 		margin-top: 1.11111rem;
 		padding-top: 1.11111rem;
 		text-align: left;
+		
 
 		.menu__item {
 			margin-bottom: 0.55556rem;
+		
 
 			& + .menu__item-btn {
 				margin-top: 0.83333rem;
@@ -87,6 +91,7 @@
 			padding-left: 0.75rem;
 			padding-right: 0.75rem;
 			width: 100%;
+			
 		}
 	}
 
@@ -145,7 +150,7 @@
 		.btn--secondary {
 			font-size: 0.83333em;
 			min-width: 0;
-			padding: 0.575em 1.33333em;
+			padding: 0.9em 1.33333em;
 		}
 	}
 }

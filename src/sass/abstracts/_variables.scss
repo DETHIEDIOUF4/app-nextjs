@@ -8,7 +8,7 @@ $theme-styles: (
 			sans-serif: ('Open Sans', Lato, sans-serif)
 		),
 		colors: (
-			blue:  #7076f0,
+			blue:  #461FE5,
 			green: #29cf7f,
 			red:   #f36763
 		)
@@ -19,7 +19,7 @@ $theme-styles: (
 			sans-serif: ('Poppins', 'Helvetica Neue', Helvetica, 'Roboto', sans-serif)
 		),
 		colors: (
-			blue:  #2859da,
+			blue:  #2E11DD,
 			green: #01be54,
 			red:   #ec5033
 		)
@@ -30,7 +30,7 @@ $theme-styles: (
 			sans-serif: ('IBM Plex Sans','Helvetica Neue', Helvetica, 'Roboto', sans-serif)
 		),
 		colors: (
-			blue:   #0084ff,
+			blue:   #2E11DD,
 			green:  #00cc88,
 			red:    #ff3366
 		)
@@ -91,16 +91,16 @@ $color-classic-card-shadow:            rgba(44,52,60,.1) !default;
 $color-bold-card-border:               #2c343c !default;
 
 // Main nav
-$color-nav-link-text:                  #2c343c !default;
-$color-nav-link-border:                $color-primary !default;
-$color-nav-mobile-bg:                  #fff !default;
-$color-nav-mobile-border:              #eceef1 !default;
-$color-nav-mobile-overlay:             rgba(236,238,241,.8) !default;
+$color-nav-link-text:                 white !default;
+$color-nav-link-border:                black;
+$color-nav-mobile-bg:                 black!default;
+$color-nav-mobile-border:              black !default;
+$color-nav-mobile-overlay:             black !default;
 $color-bold-nav-mobile-border:         #2c343c !default;
 $color-bold-nav-mobile-overlay:        rgba(44,52,60,.8) !default;
 
 // Header
-$color-header-border:                  #eceef1 !default;
+$color-header-border:                  black !default;
 $color-bold-header-border:             #2c343c !default;
 
 // Footer

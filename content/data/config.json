@@ -1,5 +1,5 @@
 {
-    "title": "Stackbit App Theme",
+    "title": "Buur Markets",
     "path_prefix": "/",
     "layout_type": "full-width",
     "style": "minimal",
@@ -8,27 +8,32 @@
     "base_font": "sans-serif",
     "header": {
         "title": "App",
-        "logo": "images/logo.svg",
+        "logo": "images/BM.png",
         "logo_alt": "App logo",
         "has_primary_nav": true,
         "primary_nav_links": [
             {
-                "label": "Pricing",
+                "label": "Trade",
                 "url": "/pricing",
                 "style": "link"
             },
             {
-                "label": "About",
+                "label": "Produits",
                 "url": "/about",
                 "style": "link"
             },
             {
-                "label": "Blog",
+                "label": "CopyPortfolio",
                 "url": "/blog",
                 "style": "link"
             },
             {
-                "label": "Style Guide",
+                "label": "Actualites",
+                "url": "/style-guide",
+                "style": "link"
+            },
+             {
+                "label": "Société",
                 "url": "/style-guide",
                 "style": "link"
             }
@@ -36,19 +41,14 @@
         "has_secondary_nav": true,
         "secondary_nav_links": [
             {
-                "label": "App Store",
+                "label": "Se connecter ",
                 "url": "/pricing",
                 "style": "primary"
-            },
-            {
-                "label": "Google Play",
-                "url": "/pricing",
-                "style": "secondary"
             }
         ]
     },
     "footer": {
-        "logo": "images/logo.svg",
+        "logo": "images/BM.png",
         "logo_alt": "App logo",
         "has_primary_nav": true,
         "primary_nav_title": "Company",
